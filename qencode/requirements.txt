@@ -1,0 +1,3 @@
+pennylane
+black
+pytorch
