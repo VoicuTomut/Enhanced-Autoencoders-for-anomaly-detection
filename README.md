@@ -1,4 +1,4 @@
-# Entangled-assisted autoencoders - Samras team
+# Entanglement-assisted autoencoders - Samras team
 #temporaryRepoQhack2022 - power up entry
 
 We deploy quantum autoencoders for anomaly detection tasks for two datasets - breast cancer and credit card fraud. The preliminary results are presented in Use-case_Cancer_detection, Use-case_Fraud_detection, respectively. 
