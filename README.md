@@ -32,7 +32,7 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         legal classification accuracy: 0.93
         total accuracy: 0.88
 
-------------
+
     
 ------------
     ├──  EAQAE
