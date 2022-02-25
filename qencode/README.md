@@ -16,8 +16,11 @@ Code structure:
     │
     ├── encoders 
     │   ├── base.py                                         <- encoder circuits from:https://arxiv.org/abs/1612.02806
-    │   ├── enhance_e3.py                                   <- encoder circuit inspired  from the: https://arxiv.org/abs/2010.06599      
-    │   └── ent_assist_ecoder.py                            <- entanglement assisted encoder with no interaction 
+    │   ├── enhance_e3.py                                   <- encoder circuit inspired  from the: https://arxiv.org/abs/2010.06599   
+    │   ├── ent_assist_encode.py                            <- entanglement assisted encoder with no interaction
+    │   ├── ent_assist_encode_sean.py
+    │   ├── ent_zoom_e4.py                                  <- An encoder thet darst extens the feuture space then compress it.
+    │   └── patched_autoencoder_e5.py                       <- a patch encoder 
     │
     ├── initialize                       			
     │   └── base.py                                	         <- colection of pennylane initializers addapted to our project 
