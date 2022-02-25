@@ -13,8 +13,25 @@ The preliminary results for 1) are presented in Use-case_Cancer_detection, Use-c
 
 We get great results for the experiments on the MNIST data sets, and for Cancer detection, we observe an improvement using our version of the patch encoder.To speed up the training for the financial data, we used Jax to multi-process the optimization step.To read more about our results please check: 
 
+### Results:
+##### Cancer_detection:
+Compression accuracy: 0.8609424846861528
+Classification:
+    split: 0.845
+    benign classification accuracy: 0.9230769230769231
+    malign clasification accuracy: 0.9098360655737705
+    total accuracy: 0.9157175398633257
+ 
+##### Fraud_detection:
+Compression accuracy: 0.9106666637654454
+Classification:
+    split:0.75
+    fraund classification accuracy: 0.83
+    legal classification accuracy: 0.93
+    total accuracy: 0.88
 
 
+    
 ------------
 
     │
