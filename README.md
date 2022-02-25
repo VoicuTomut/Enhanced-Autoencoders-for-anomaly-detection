@@ -14,7 +14,7 @@ This repository is composed of two parts:
 
 The preliminary results for 1) are presented in Use-case_Cancer_detection and for 2) are presented in Use-case_Fraud_detection, respectively. For that, we follow the approach developed in https://arxiv.org/pdf/2112.08869.pdf but explore a lot more approaches than the original anomaly detection paper; by also implementing an [enhanced autoencoder](https://arxiv.org/pdf/2010.06599.pdf) and a [patch autoencoder](https://arxiv.org/pdf/2112.12563.pdf) that were not previously used for anomaly detection but some improvements (for example connecting the encoder circuits).
 
-We get great results for the experiments on the MNIST data sets, and for Cancer detection, we observe an improvement using our version of the patch encoder.To speed up the training for the financial data, we used Jax to multi-process the optimization step.To read more about our results please check: 
+Our results show high accuracy for the experiments on the MNIST data sets, and for cancer detection, we observe an improvement using our version of the patch encoder. To speed up the training for the financial data, we used Jax to multi-process the optimization step. To read more about our results please check: 
 ------------
 
 ### Results:
@@ -27,6 +27,17 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         malign clasification accuracy: 0.9098360655737705
         total accuracy: 0.9157175398633257
  
+Simulator:
+
+![image](plots/cancer_detect_1.png)
+
+
+Hardware:
+
+![image](plots/cancer_detect_2.png)
+
+
+
 ##### Fraud detection:
     Compression accuracy: 0.9106666637654454
     Classification:
@@ -34,6 +45,11 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         fraund classification accuracy: 0.83
         legal classification accuracy: 0.93
         total accuracy: 0.88
+
+Results
+![image](plots/fraud.png)
+
+
 
 ##### MNIST Classification:
     With E1:
@@ -101,11 +117,11 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
 Project done during QHack 2022. 
 
 Submitted to the following challenges:
-###Bio-QML Challenge
-###Quantum Finance Challenge
-###Amazon Braket Challenge
-###IBM Qiskit Challenge
-###Hybrid Algorithms Challenge
 
---------
+- Bio-QML Challenge
+- Quantum Finance Challenge
+- Amazon Braket Challenge
+- IBM Qiskit Challenge
+- Hybrid Algorithms Challenge
+
 
