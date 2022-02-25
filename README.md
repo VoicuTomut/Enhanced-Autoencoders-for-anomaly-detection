@@ -11,9 +11,9 @@ Code structure:
 ------------
 
 │
-├── MNIST_benchmark                                               
+├── MNIST_benchmark   
 │   ├ Here, we keep our experiments with the MNIST data set for benchmark and comparison with past paper implementation.
-│   │benchmark and comparison with past paper implementation.
+│   │ benchmark and comparison with past paper implementation.
 │   │
 │   ├── best results 
 │   ├──                           
@@ -44,7 +44,7 @@ Code structure:
 ├── LICENSE
 │   
 ├── requirements.txt
-│
-└──README.md                                            <- qencode README .
+│   
+└──README.md                                            <- project README
 
 --------
