@@ -46,13 +46,9 @@ Hardware:
         legal classification accuracy: 0.93
         total accuracy: 0.88
 
+Results
+![image](plots/fraud.png)
 
-### Simulation 
-![image](plots/cancer_detect_1.png)
-
-### Real Hardware 
-![image](plots/cancer_detect_2.png)
-=======
 
 
 ##### MNIST Classification:
