@@ -3,8 +3,8 @@
 ## Team: Samras
 #### Members:  Michał Bączyk, Stephen DiAdamo, Sean Mcilvane, Eraraya Ricardo Muten, Ankit Khandelwal, Andrei Tomut, and Renata Wong.
 
-#### Our Final Presentation Notebook, presenting clearly all the methods and results, can be found [here](https://colab.research.google.com/drive/1qE2KCy4SBKtLRlL55SCjvZUf4IZaC2-y?usp=sharing)
-#### Note that all the codes and notebooks used to produce the results in that notebook are in this repository.
+> ### Our Final Presentation Notebook, presenting clearly all the methods and results, can be found [here](https://colab.research.google.com/drive/1qE2KCy4SBKtLRlL55SCjvZUf4IZaC2-y?usp=sharing).
+> ### Note that all the codes and notebooks used to produce the results in that notebook are in this repository.
 
 This repository is composed of two parts: 
 
