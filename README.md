@@ -67,6 +67,7 @@ Results
         class 1 classification accuracy: 1.0
         class 0 classification accuracy: 0.949438202247191
         total accuracy: 0.975
+![image](MNIST_benchmark/mnist_JAX/e1-e2-e3_classification.png)
 
     
 ------------
