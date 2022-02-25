@@ -31,9 +31,9 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
     │   ├We used and applied the Quantum autoencoder for anomaly detection in order to identify the Bening cels from the Kaggle
     │   │dataset: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/discussion . 
     │   │
-    │   ├── best results: 
-    │   ├── hardware results:                           
-    │   └── hardware results:
+    │   ├── best results: Cancer_encoder_e5-SelectedFeautures.ipynb
+    │   ├── hardware results: e5_real-ent.ipynb                           
+    │   └── hardware results: e5_real-ent.ipynb
     │
     ├── Use-case_Fraud_detection
     │   ├We used and applied the Quantum autoencoder for anomaly detection on the Kaggle dataset (https://www.kaggle.com/mlg-ulb/creditcardfraud. ) 
