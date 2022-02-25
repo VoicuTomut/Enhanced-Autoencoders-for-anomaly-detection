@@ -40,9 +40,7 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
     │   │
     │   ├── EAQAE 3-1-3; entangling directly encoder and decoder qubits; training both encoder and decoder.ipynb
     │   ├── EAQAE 4-1-4; 2 EPR pairs shared.ipynb
-    │   ├── EAQAE 4-1-4; entangling directly encoder and decoder qubits.ipynb    
-    │
-    ├── EAQAE approaches. <- entangled quantum auto encoders (Entanglement enhanced attempts to improve results)
+    │   ├── EAQAE 4-1-4; entangling directly encoder and decoder qubits.ipynb
     │   
     │
     ├── MNIST_benchmark   
