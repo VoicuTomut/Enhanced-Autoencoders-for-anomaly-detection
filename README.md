@@ -20,7 +20,7 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
     │
     ├── MNIST_benchmark   
     │   ├ Here, we keep our experiments with the MNIST data set for benchmark and comparison with past paper implementation.
-    │   │ benchmark and comparison with past paper implementation.
+    │   │ 
     │   │
     │   ├── mnist_JAX
     │   ├── six-one-six   
