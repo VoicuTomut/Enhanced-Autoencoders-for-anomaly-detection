@@ -32,6 +32,7 @@ Code structure:
 │   ├We used and applied the Quantum autoencoder for anomaly detection on the Kaggle dataset (https://www.kaggle.com/mlg-ulb/creditcardfraud. ) 
 │   │that contain card transaction to spot the fraudulent transactions.And we get decent results. 
 │   │
+
 │   ├── best results: 
 │   ├──                           
 │   └── 
@@ -39,7 +40,6 @@ Code structure:
 ├── qencode                                               
 │   └── This module aims to keep all the pieces of an autoencoder easy to connect with each other by using QubitsArrangement class. It also provides a range of: initializers, encoder, and decoder circuits that we implemented using Pennylane. 
 │
-├── 
 │   
 ├── LICENSE
 │   
@@ -47,4 +47,4 @@ Code structure:
 │   
 └──README.md                                            <- project README
 
---------
+----------------
