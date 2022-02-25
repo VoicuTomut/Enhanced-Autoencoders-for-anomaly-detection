@@ -16,24 +16,21 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
 
 ### Results:
 
-##### Cancer_detection:
+##### Cancer detection:
     Compression accuracy: 0.8609424846861528
-Classification:
-
-    split: 0.845
-    benign classification accuracy: 0.9230769230769231
-    malign clasification accuracy: 0.9098360655737705
-    total accuracy: 0.9157175398633257
+    Classification:
+        split: 0.845
+        benign classification accuracy: 0.9230769230769231
+        malign clasification accuracy: 0.9098360655737705
+        total accuracy: 0.9157175398633257
  
-##### Fraud_detection:
-
-    Compression accuracy: 0.9106666637654454
-Classification:
-
-    split:0.75
-    fraund classification accuracy: 0.83
-    legal classification accuracy: 0.93
-    total accuracy: 0.88
+ ##### Fraud detection:
+        Compression accuracy: 0.9106666637654454
+    Classification:
+        split:0.75
+        fraund classification accuracy: 0.83
+        legal classification accuracy: 0.93
+        total accuracy: 0.88
 
 ------------
     
