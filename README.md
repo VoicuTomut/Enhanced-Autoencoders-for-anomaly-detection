@@ -1,4 +1,4 @@
-# Entanglement-assisted quantum autoencoders (EAQAE)
+# Enhanced-Autoencoders-for-anomaly-detection
 
 ## Team: Samras
 #### Members:  Michał Bączyk, Stephen DiAdamo, Sean Mcilvane, Eraraya Ricardo Muten, Ankit Khandelwal, Andrei Tomut, and Renata Wong. 
