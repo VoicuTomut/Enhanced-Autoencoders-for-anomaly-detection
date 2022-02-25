@@ -36,8 +36,8 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         total accuracy: 0.88
 
 
-[image](plots/cancer_detect_1.png)
-[image](plots/cancer_detect_2.png)
+![image](plots/cancer_detect_1.png)
+![image](plots/cancer_detect_2.png)
 
 ##### MNIST Classification:
     With E1:
