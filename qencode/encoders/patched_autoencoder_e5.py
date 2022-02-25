@@ -1,5 +1,6 @@
 """
 The encoder circuit inspired  from the: https://arxiv.org/pdf/2112.12563.pdf
+but with a different ansats
 """
 
 import pennylane as qml
