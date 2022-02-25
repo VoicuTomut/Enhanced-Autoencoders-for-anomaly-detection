@@ -80,8 +80,13 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
     │   
     └──README.md                                            <- project README
 
-    
+Project done during QHack 2022. 
 
+Submitted to the following challenges:
+Bio-QML Challenge
+Quantum Finance Challenge
+Amazon Braket Challenge
+IBM Qiskit Challenge
 
 --------
 
