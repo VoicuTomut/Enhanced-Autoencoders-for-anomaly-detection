@@ -45,7 +45,7 @@ Classification:
     │   │ 
     │   │
     │   ├── mnist_JAX
-    │   ├── EAQAE approaches
+    │   ├── EAQAE approaches.  <- entangled quantum auto encoders 
     │   ├── six-one-six   
     │   ├── s...
     │   └── results: mnist_JAX/digits data.xlsx   
