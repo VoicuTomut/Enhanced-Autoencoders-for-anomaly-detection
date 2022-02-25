@@ -28,9 +28,14 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         total accuracy: 0.9157175398633257
  
 Simulator:
+
 ![image](plots/cancer_detect_1.png)
+
+
 Hardware:
+
 ![image](plots/cancer_detect_2.png)
+
 
 
 ##### Fraud detection:
