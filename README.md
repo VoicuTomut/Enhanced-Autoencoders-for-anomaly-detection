@@ -38,22 +38,21 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
 
     
 ------------
-    ├──  EAQAE
+    ├──  EAQAE approaches
     │   ├ 3 conceptually different approaches presenting how etanglement might be used as a resource in training of QAEs.
     │   │
     │   ├── EAQAE 3-1-3; entangling directly encoder and decoder qubits; training both encoder and decoder.ipynb
     │   ├── EAQAE 4-1-4; 2 EPR pairs shared.ipynb
-    │   ├── EAQAE 4-1-4; entangling directly encoder and decoder qubits.ipynb
+    │   └── EAQAE 4-1-4; entangling directly encoder and decoder qubits.ipynb
     │   
     │
     ├── MNIST_benchmark   
     │   ├ Here, we keep our experiments with the MNIST data set for benchmark and comparison with past paper implementation.
-    │   │ 
     │   │
     │   ├── mnist_JAX
-    │   ├── EAQAE approaches.  <- entangled quantum auto encoders 
-    │   ├── six-one-six   
-    │   ├── s...
+    │   ├── six_one_six   
+    │   ├── six_three_six
+    │   ├── six_two_six
     │   └── results: mnist_JAX/digits data.xlsx   
     │
     ├── Use-case_Cancer_detection
