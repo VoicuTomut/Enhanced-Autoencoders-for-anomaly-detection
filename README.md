@@ -6,7 +6,7 @@ For that, we follow the approach developed in https://arxiv.org/pdf/2112.08869.p
 
 We also want to test how an entanglement-assisted quantum autoencoder will perform for the same tasks. We have already developed necessary architectured which you can find in qencode - trained examples will be added soon.
 
-
+Structure:
 ------------
 
     │
