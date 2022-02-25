@@ -37,6 +37,9 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
 ------------
 
     │
+    ├── EAQAE approaches. <- entangled quantum auto encoders (Entanglement enhanced attempts to improve results)
+    │   
+    │
     ├── MNIST_benchmark   
     │   ├ Here, we keep our experiments with the MNIST data set for benchmark and comparison with past paper implementation.
     │   │ 
