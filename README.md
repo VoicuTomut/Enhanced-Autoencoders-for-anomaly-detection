@@ -8,6 +8,7 @@ We also want to test how an entanglement-assisted quantum autoencoder will perfo
 
 
 Code structure:
+------------
 
 │
 ├── MNIST_benchmark                                               
@@ -19,7 +20,8 @@ Code structure:
 │   └──  
 │
 ├── Use-case_Cancer_detection
-│   ├We used and applied the Quantum autoencoder for anomaly detection in order to identify the Bening cels from the Kaggle │   │dataset: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/discussion . 
+│   ├We used and applied the Quantum autoencoder for anomaly detection in order to identify the Bening cels from the Kaggle
+│   │dataset: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/discussion . 
 │   │
 │   ├── best results: 
 │   ├──                           
