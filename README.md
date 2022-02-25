@@ -35,7 +35,12 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
 ------------
     
 ------------
-
+    ├──  EAQAE
+    │   ├ 3 conceptually different approaches presenting how etanglement might be used as a resource in training of QAEs.
+    │   │
+    │   ├── EAQAE 3-1-3; entangling directly encoder and decoder qubits; training both encoder and decoder.ipynb
+    │   ├── EAQAE 4-1-4; 2 EPR pairs shared.ipynb
+    │   ├── EAQAE 4-1-4; entangling directly encoder and decoder qubits.ipynb    
     │
     ├── EAQAE approaches. <- entangled quantum auto encoders (Entanglement enhanced attempts to improve results)
     │   
@@ -65,6 +70,7 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
     │   ├── best results: BEST_fraud_detection ; QuantumCreditFraud-best_pre_Braket.ipynb
     │   └── hardware results: QuantumCreditFraud_BraketResults.ipynb                       
     │   
+    │      
     │
     ├── qencode                                               
     │   └── This module aims to keep all the pieces of an autoencoder easy to connect with each other by using QubitsArrangement class. It also provides a range of: initializers, encoder, and decoder circuits that we implemented using Pennylane. 
