@@ -27,7 +27,7 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         malign clasification accuracy: 0.9098360655737705
         total accuracy: 0.9157175398633257
  
- ##### Fraud detection:
+##### Fraud detection:
     Compression accuracy: 0.9106666637654454
     Classification:
         split:0.75
@@ -35,6 +35,22 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         legal classification accuracy: 0.93
         total accuracy: 0.88
 
+##### MNIST Classification:
+    With E1:
+        split: 0.67
+        class 1 classification accuracy: 1.0
+        class 0 classification accuracy: 0.9943820224719101
+        total accuracy: 0.9972222222222222
+    With E2:
+        split: 0.67
+        class 1 classification accuracy: 1.0
+        class 0 classification accuracy: 0.9943820224719101
+        total accuracy: 0.9972222222222222
+    With E3:
+        split: 0.53
+        class 1 classification accuracy: 1.0
+        class 0 classification accuracy: 0.949438202247191
+        total accuracy: 0.975
 
     
 ------------
