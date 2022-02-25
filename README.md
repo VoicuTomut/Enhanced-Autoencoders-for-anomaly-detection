@@ -56,9 +56,9 @@ Classification:
     │   ├We used and applied the Quantum autoencoder for anomaly detection on the Kaggle dataset (https://www.kaggle.com/mlg-ulb/creditcardfraud. ) 
     │   │that contain card transaction to spot the fraudulent transactions.And we get decent results. 
     │   │
-    │   ├── best results: 
-    │   ├──                           
-    │   └── 
+    │   ├── best results: BEST_fraud_detection/QuantumCreditFraud-Qiskit.ipynb
+    │   └── hardware results: QuantumCreditFraud_BraketResults.ipynb                       
+    │   
     │
     ├── qencode                                               
     │   └── This module aims to keep all the pieces of an autoencoder easy to connect with each other by using QubitsArrangement class. It also provides a range of: initializers, encoder, and decoder circuits that we implemented using Pennylane. 
