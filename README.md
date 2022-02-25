@@ -12,7 +12,7 @@ This repository is composed of two parts:
 2) Testing how entanglement resources can be added to autoencoders to enhance their encoding and decoding ability.
 
 
-The preliminary results for 1) are presented in Use-case_Cancer_detection, Use-case_Fraud_detection, respectively. For that, we follow the approach developed in https://arxiv.org/pdf/2112.08869.pdf but explore a lot more approaches than the original anomaly detection paper; by also implementing an [enhanced autoencoder](https://arxiv.org/pdf/2010.06599.pdf) and a [patch autoencoder](https://arxiv.org/pdf/2112.12563.pdf) that were not previously used for anomaly detection but some improvements (for example connecting the encoder circuits).
+The preliminary results for 1) are presented in Use-case_Cancer_detection and for 2) are presented in Use-case_Fraud_detection, respectively. For that, we follow the approach developed in https://arxiv.org/pdf/2112.08869.pdf but explore a lot more approaches than the original anomaly detection paper; by also implementing an [enhanced autoencoder](https://arxiv.org/pdf/2010.06599.pdf) and a [patch autoencoder](https://arxiv.org/pdf/2112.12563.pdf) that were not previously used for anomaly detection but some improvements (for example connecting the encoder circuits).
 
 We get great results for the experiments on the MNIST data sets, and for Cancer detection, we observe an improvement using our version of the patch encoder.To speed up the training for the financial data, we used Jax to multi-process the optimization step.To read more about our results please check: 
 ------------
