@@ -1,12 +1,20 @@
-# Entanglement-assisted quantum autoencoders (EAQAE) - Samras
-#temporaryRepoQhack2022 - power up entry
+# Entanglement-assisted quantum autoencoders (EAQAE)
 
-We deploy quantum autoencoders for anomaly detection tasks for two datasets - breast cancer and credit card fraud. The preliminary results are presented in Use-case_Cancer_detection, Use-case_Fraud_detection, respectively. 
-For that, we follow the approach developed in https://arxiv.org/pdf/2112.08869.pdf. To speed up the training for the financial data, we used Jax.
+## Team: Samras
+#### Members:  Michał Bączyk, Stephen DiAdamo, Sean Mcilvane, Eraraya Ricardo Muten, Ankit Khandelwal, Andrei Tomut, and Renata Wong. 
 
-We also want to test how an entanglement-assisted quantum autoencoder will perform for the same tasks. We have already developed necessary architectured which you can find in qencode - trained examples will be added soon.
+This repository is composed of two parts: 
 
-Structure:
+1) Testing autoencoding strategies for anomaly detection specifically for two datasets - breast cancer and credit card fraud.
+2) Testing how entanglement resources can be added to autoencoders to enhance their encoding and decoding ability.
+
+
+The preliminary results for 1) are presented in Use-case_Cancer_detection, Use-case_Fraud_detection, respectively. For that, we follow the approach developed in https://arxiv.org/pdf/2112.08869.pdf but explore a lot more approaches than the original anomaly detection paper; by also implementing an [enhanced autoencoder](https://arxiv.org/pdf/2010.06599.pdf) and a [patch autoencoder](https://arxiv.org/pdf/2112.12563.pdf) that were not previously used for anomaly detection but some improvements (for example connecting the encoder circuits).
+
+We get great results for the experiments on the MNIST data sets, and for Cancer detection, we observe an improvement using our version of the patch encoder.To speed up the training for the financial data, we used Jax to multi-process the optimization step.To read more about our results please check: 
+
+
+
 ------------
 
     │
@@ -14,17 +22,18 @@ Structure:
     │   ├ Here, we keep our experiments with the MNIST data set for benchmark and comparison with past paper implementation.
     │   │ benchmark and comparison with past paper implementation.
     │   │
-    │   ├── best results 
-    │   ├──                           
-    │   └──    
+    │   ├── mnist_JAX
+    │   ├── six-one-six   
+    │   ├── s...
+    │   └── results: mnist_JAX/digits data.xlsx   
     │
     ├── Use-case_Cancer_detection
     │   ├We used and applied the Quantum autoencoder for anomaly detection in order to identify the Bening cels from the Kaggle
     │   │dataset: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/discussion . 
     │   │
     │   ├── best results: 
-    │   ├──                           
-    │   └── 
+    │   ├── hardware results:                           
+    │   └── hardware results:
     │
     ├── Use-case_Fraud_detection
     │   ├We used and applied the Quantum autoencoder for anomaly detection on the Kaggle dataset (https://www.kaggle.com/mlg-ulb/creditcardfraud. ) 
