@@ -1,7 +1,8 @@
 
 ## QENCODE
 
-This module is part of the [QuanutmAutoEncoders](https://github.com/stephendiadamo/QuantumAutoEncoders/blob/main/qencode/qubits_arrangement.py) repository. 
+This module is part of the [Enhanced-Autoencoders-for-anomaly-detection
+Public](https://github.com/VoicuTomut/Enhanced-Autoencoders-for-anomaly-detection) repository. 
 This module aims to keep all the pieces of an autoencoder easy to connect with each other by using QubitsArrangement class.
 It also provides a range of: initializers, encoder, and decoder circuits that we implemented using [Pennylane](https://pennylane.ai/).
 
