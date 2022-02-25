@@ -25,7 +25,7 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         total accuracy: 0.9157175398633257
  
  ##### Fraud detection:
-        Compression accuracy: 0.9106666637654454
+    Compression accuracy: 0.9106666637654454
     Classification:
         split:0.75
         fraund classification accuracy: 0.83
