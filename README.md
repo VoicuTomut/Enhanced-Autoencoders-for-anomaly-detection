@@ -46,3 +46,5 @@ Code structure:
 ├── requirements.txt
 │
 └──README.md                                            <- qencode README .
+
+--------
