@@ -27,6 +27,12 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         malign clasification accuracy: 0.9098360655737705
         total accuracy: 0.9157175398633257
  
+Simulator:
+![image](plots/cancer_detect_1.png)
+Hardware:
+![image](plots/cancer_detect_2.png)
+
+
 ##### Fraud detection:
     Compression accuracy: 0.9106666637654454
     Classification:
@@ -35,9 +41,6 @@ We get great results for the experiments on the MNIST data sets, and for Cancer 
         legal classification accuracy: 0.93
         total accuracy: 0.88
 
-
-![image](plots/cancer_detect_1.png)
-![image](plots/cancer_detect_2.png)
 
 ##### MNIST Classification:
     With E1:
